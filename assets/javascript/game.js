@@ -32,7 +32,7 @@ $(".bike").on("click", function() {
         $(".wins").text(wins);
         console.log("won");
         setTimeout(function() {
-            resetGame()},10000);
+            resetGame()},3000);
 
     } else if (counter > randomGoal) {
         // alert("you lose");
